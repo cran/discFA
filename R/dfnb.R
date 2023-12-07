@@ -1,4 +1,4 @@
-#' @title Discrete factor analysis for the Negative Binomial Distribution
+#' @title Discrete factor analysis for the negative binomial distribution
 #'
 #' @param y Data, an n by d numeric matrix
 #'
@@ -17,7 +17,7 @@
 #' @importFrom stats cor dnbinom pnbinom var
 #'
 #' @examples
-#' dfnb(zinb100_Data[1:40,1:3])
+#' dfnb(zinb100_Data[1:40,1:5])
 dfnb <- function(y){
   y <- as.matrix(y)
   # negative correlation

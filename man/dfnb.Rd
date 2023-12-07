@@ -2,7 +2,7 @@
 % Please edit documentation in R/dfnb.R
 \name{dfnb}
 \alias{dfnb}
-\title{Discrete factor analysis for the Negative Binomial Distribution}
+\title{Discrete factor analysis for the negative binomial distribution}
 \usage{
 dfnb(y)
 }
@@ -19,8 +19,8 @@ A list with entries
 \item{estp}{Estimated value of r for the negative binomial distributed observations(s)}
 }
 \description{
-Discrete factor analysis for the Negative Binomial Distribution
+Discrete factor analysis for the negative binomial distribution
 }
 \examples{
-dfnb(zinb100_Data[1:40,1:3])
+dfnb(zinb100_Data[1:40,1:5])
 }

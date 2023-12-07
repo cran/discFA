@@ -2,7 +2,7 @@
 % Please edit documentation in R/dfnbt.R
 \name{dfnbt}
 \alias{dfnbt}
-\title{Discrete factor analysis for the negative Binomial distribution with right truncation at A}
+\title{Discrete factor analysis for the truncated negative binomial distribution (with right truncation at A)}
 \usage{
 dfnbt(y, A)
 }
@@ -23,7 +23,7 @@ A list with entries
 \item{estp}{Estimated value of r for the observation}
 }
 \description{
-Discrete factor analysis for the negative Binomial distribution with right truncation at A
+Discrete factor analysis for the truncated negative binomial distribution (with right truncation at A)
 }
 \examples{
 dfnbt(zinb100_Data[1:40,1:3], A = 6)

@@ -2,7 +2,7 @@
 % Please edit documentation in R/dfpt.R
 \name{dfpt}
 \alias{dfpt}
-\title{Discrete factor analysis with the Poisson distribution}
+\title{Discrete factor analysis with the truncated Poisson distribution}
 \usage{
 dfpt(y, A = NULL)
 }
@@ -21,7 +21,7 @@ A list with entries
 \item{estmu}{Estimated parameters for each variable within each factor}
 }
 \description{
-Discrete factor analysis with the Poisson distribution
+Discrete factor analysis with the truncated Poisson distribution
 }
 \examples{
 dfpt(y = car_data[,1:5], A = 5)

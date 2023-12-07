@@ -1,4 +1,4 @@
-#' @title Discrete factor analysis for the negative Binomial distribution with right truncation at A
+#' @title Discrete factor analysis for the truncated negative binomial distribution (with right truncation at A)
 #'
 #' @param y Data, an n by d numeric matrix
 #' @param A truncation point (Note that if the data is in Likert scale

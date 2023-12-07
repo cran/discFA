@@ -1,4 +1,4 @@
-#' @title Discrete factor analysis with the Poisson distribution
+#' @title Discrete factor analysis with the truncated Poisson distribution
 #'
 #' @param y Data, an n by d numeric matrix
 #' @param A truncation point (Note that if the data is in Likert scale

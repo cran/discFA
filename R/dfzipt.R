@@ -20,7 +20,7 @@
 #' @export
 #'
 #' @examples
-#' dfzipt(zinb100_Data[1:50,], A = 6)
+#' dfzipt(zinb100_Data[1:50,1:3], A = 6)
 dfzipt <- function(y,A=NULL){
   y <- as.matrix(y)
   # negative correlation

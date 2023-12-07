@@ -26,5 +26,5 @@ A list with entries
 Discrete factor analysis with the truncated zero inflated Poisson distribution
 }
 \examples{
-dfzipt(zinb100_Data[1:50,], A = 6)
+dfzipt(zinb100_Data[1:50,1:3], A = 6)
 }
